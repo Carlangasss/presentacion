@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: url('imagenes/bg.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.reg_admin{
+    width: 40%;
+    height: 90%;
+    background: #03a29a93;
+    margin: auto;
+    margin-top: 2%;
+    box-shadow: 7px 13px 37px rgb(1, 61, 68);
+    padding: 20px 30px;
+    border-top: 4px solid #043a64;
+    color: rgb(218, 218, 218);
+}
+
+.reg_admin h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.dato1 {
+    width: 100%;
+    border: 1px #017bab;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.dato2 {
+    width: 100%;
+    border: 1px #017bab;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.boton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 10%;
+    font-family: 'Roboto' , sans-serif;
+    color: rgb(255, 255, 255);
+    background: #3f3e3d;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;   
+    margin: auto;
+    
+}
+
+.reg_admin p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+}
+
+.reg_admin a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.reg_admin  a:hover {
+    text-decoration: underline;
+}
+.btn{
+    text-align: center;
+}
+
+.miembros{
+    text-align: center;
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+.contenedor{
+    text-align: center;
+}
